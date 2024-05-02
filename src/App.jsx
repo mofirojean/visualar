@@ -1,9 +1,13 @@
+import Navbar from "./components/navbar.jsx";
+import HeroSection from "./components/hero-section.jsx";
+
 function App() {
   return (
       <>
-          <h1 className="text-3xl font-bold underline">
-              Hello world!
-          </h1>
+          <Navbar />
+          <div className="max-w-6xl mx-auto pt-20 px-6">
+              <HeroSection />
+          </div>
       </>
   )
 }
