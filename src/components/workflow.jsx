@@ -5,7 +5,7 @@ import { checklistItems } from "../constants/index.jsx";
 export default function Workflow() {
     return (
         <div className="mt-20">
-            <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl my-10 lg:mt-20 text-center tracking-wide">
                 Accelerate your
                 <span className="bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent">
                         {" "} coding workflow.
